@@ -377,6 +377,79 @@ body {
     }
 }
 
+.a5 {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    overflow: hidden;
+
+    .b5 {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+    .c5 {
+        max-width: 520px;
+    }
+
+    .d5 {
+        font-size: 48px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 32px;
+    }
+
+    .e5 {
+        font-size: 16px;
+        line-height: 1.65;
+        color: #909399;
+        margin-bottom: 48px;
+        font-weight: 400;
+    }
+
+    .f5 {
+        display: flex;
+        gap: 48px;
+    }
+
+    .g5 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h5 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #2c3e50;
+        line-height: 1.1;
+        margin-bottom: 8px;
+    }
+
+    .i5 {
+        font-size: 15px;
+        color: #909399;
+        font-weight: 400;
+    }
+
+    .j5 {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .k5 {
+        max-width: 100%;
+        width: 500px;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
 @media (max-width: 768px) {
     .a1 {
         padding-top: 20px;
@@ -519,4 +592,55 @@ body {
         }
     }
 
+    .a5 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .b5 {
+            flex-direction: column;
+            text-align: center;
+            gap: 40px;
+        }
+
+        .c5 {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .d5 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .e5 {
+            font-size: 15px;
+            margin-bottom: 32px;
+            padding: 0 10px;
+        }
+
+        .f5 {
+            width: 100%;
+            justify-content: center;
+            gap: 36px;
+        }
+
+        .h5 {
+            font-size: 32px;
+        }
+
+        .i5 {
+            font-size: 14px;
+        }
+
+        .j5 {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .k5 {
+            max-width: 340px;
+        }
+    }
 }
